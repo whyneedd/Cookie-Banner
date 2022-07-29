@@ -81,7 +81,8 @@ img {
     position: absolute;
     display: block;
     bottom: 2rem;
-    left: 2rem;
+    left: 0;
+    opacity: 0;
     text-align: center;
     border-radius: .56rem;
     padding: 15px;

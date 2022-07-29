@@ -8,3 +8,8 @@ const cookiCreate = () => {
     }
 }
 cookiCreate();
+
+
+var tl = gsap.timeline({defauts: {ease: "Power1.out"}});
+
+tl.to(".cookieBox", { opacity: 1, x: "2rem", duration: 1, stagger: .25,})
