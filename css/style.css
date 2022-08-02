@@ -132,3 +132,9 @@ img {
     bottom: -100%;
     transition: bottom .8s;
 }
+
+@media screen and (max-width: 991px) {
+    .cookieBox {
+        max-width: 300px;
+    }
+}
