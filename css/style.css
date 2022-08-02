@@ -1,5 +1,8 @@
+/* ===== Google Font ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
+
+/* ===== Base ===== */
 * {
     margin: 0;
     padding: 0;
@@ -77,6 +80,7 @@ img {
     height: auto;
 }
 
+/* ===== Home ===== */
 .cookieBox {
     position: absolute;
     display: block;
@@ -133,6 +137,7 @@ img {
     transition: bottom .8s;
 }
 
+/* ===== Media Screen ===== */
 @media screen and (max-width: 991px) {
     .cookieBox {
         max-width: 300px;
